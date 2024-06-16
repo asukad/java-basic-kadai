@@ -7,7 +7,7 @@ public class Car_Chapter14 {
 	private int gear  = 1;  // 1速から5速のギアを表す
 	private int speed = 10; // ギアチェンジ後の速度を表す
 	
-	// コンストラクタ
+	// コンストラクタ（初期化処理）
 	public Car_Chapter14 () {
 	}
 		
@@ -20,7 +20,7 @@ public class Car_Chapter14 {
 			case 3 -> this.speed = 30;
 			case 4 -> this.speed = 40;
 			case 5 -> this.speed = 50;
-			default -> this.speed = 20;
+			default -> this.speed = 10;
 		}
 	}
 	
